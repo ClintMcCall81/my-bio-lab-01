@@ -1,0 +1,94 @@
+/* Style Sheet */
+
+/* Note to Self
+- You can override styles in the class or ids
+- Classes can be used on multiple HTML tags. IDs are specific to one tag.
+- Keep ids and class to a simple setup. Overriding and using multiple ids will be hell later on
+- Comment on Important lines. Not knowing how it works and the role it plays on the page will make it
+harder for others to understand, especially when handing off the project. */
+
+
+/* Main Body Tag, Anything in the below properties unless specified will use these properties */
+body {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white; /* Helpful for outlining elements */
+    color: black;
+
+}
+
+
+/* Classes, Anything in the below properties unless specified will use these properties under this 'class' */
+.main-heading {
+
+    background-color: yellowgreen; /* Helpful for outlining elements */
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    width: 50%;
+    margin: auto;
+    text-decoration: underline;
+    padding: 0px;
+
+}
+
+.image-format {
+
+    border-radius: 5%;
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+    background-color: teal; /* Helpful for outlining elements */
+
+}
+
+.paragraph-format {
+
+    width: 50%;
+    height: 100%;
+    background-color: tomato; /* Helpful for outlining elements */
+    margin: auto;
+
+}
+
+.list-01 {
+    
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet; /* Helpful for outlining elements */
+    margin: auto;
+    padding: 0px;
+}
+
+.main-section {
+
+    width: 50%;
+    height: 100%;
+    background-color: tomato; /* Helpful for outlining elements */
+    margin: auto;
+
+}
+
+/* ID's, Anything in the below properties unless specified will use these properties under this 'id' */
+#bio-content {
+
+    text-align: center;
+    background-color: white; /* Helpful for outlining elements */
+    color: turquoise;
+
+}
+
+#goals-content {
+
+    background-color: white; /* Helpful for outlining elements */
+    color: yellowgreen;
+
+}
+
+#grassland-fix {
+
+    border-radius: 5%;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
